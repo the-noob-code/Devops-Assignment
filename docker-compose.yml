@@ -1,0 +1,19 @@
+services:
+        db1:
+                image: mysqlimage
+                ports: 
+                        - "6060:6060"
+                stdin_open: true
+                tty: true          
+        db2:
+                image: mysqlimage
+                ports: 
+                        - "6070:6070"
+                stdin_open: true
+                tty: true          
+        db3:
+                image: mysqlimage
+                ports: 
+                        - "6080:6080"
+                stdin_open: true
+                tty: true          
