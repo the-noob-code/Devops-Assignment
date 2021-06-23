@@ -1,3 +1,5 @@
+#This is a docker file to create a mysql image from ubuntu base image.
+#This is a part of devops assignment.
 #select base image
 FROM ubuntu:20.04
 #install my sql server
